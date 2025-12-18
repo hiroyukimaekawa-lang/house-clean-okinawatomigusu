@@ -2786,7 +2786,7 @@ header {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .strengths-quick-icon {
         width: clamp(86px, 18vw, 120px);
         height: clamp(86px, 18vw, 120px);
@@ -3466,6 +3466,13 @@ header {
     margin: 0 0 6px;
 }
 
+.store-profile-note {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(17, 17, 17, 0.75);
+}
+
 .store-profile-details a {
     color: inherit;
     text-decoration: none;
@@ -3875,7 +3882,7 @@ footer {
 /* =========================================
    レスポンシブ対応
    ========================================= */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     header {
         padding: 0;
         display: block;
