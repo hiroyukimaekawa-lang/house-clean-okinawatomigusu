@@ -1,0 +1,11 @@
+.DS_Store
+.AppleDouble
+Thumbs.db
+
+# design reference images
+スクリーンショット*
+FireShot Capture*
+
+# accidental nested repo folder
+house-clean-okinawatomigusu/
+
