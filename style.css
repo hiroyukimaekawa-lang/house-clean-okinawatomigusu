@@ -201,7 +201,7 @@ header {
 }
 
 .btn-estimate:hover {
-    background-color: #e68900;
+    background-color: #F067A6;
 }
 
 .mobile-menu-toggle {
@@ -675,7 +675,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
 }
 
@@ -701,7 +701,7 @@ header {
 }
 
 .cta-button:hover .cta-button-icon .cta-arrow {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 /* =========================================
@@ -805,8 +805,8 @@ header {
 
 .menu-cta-button:hover {
     transform: translateY(-1px);
-    box-shadow: 0 14px 34px rgba(230, 0, 18, 0.28);
-    background: #c5000f;
+    box-shadow: 0 14px 34px rgba(240, 103, 166, 0.28);
+    background: #F067A6;
 }
 
 .menu-cta-icon {
@@ -1228,7 +1228,7 @@ header {
 }
 
 .carousel-nav:hover:not(:disabled) {
-    background-color: #c5000f;
+    background-color: #F067A6;
     transform: scale(1.1);
 }
 
@@ -1355,7 +1355,7 @@ header {
 }
 
 .estimate-widget:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
 }
 
@@ -1420,7 +1420,7 @@ header {
 }
 
 .scroll-to-top:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
 }
 
@@ -1520,7 +1520,7 @@ header {
 }
 
 .support-button:hover {
-    background-color: #c5000f;
+    background-color: #F067A6;
 }
 
 .support-arrow {
@@ -1787,9 +1787,9 @@ header {
 }
 
 .estimate-cta-button-primary:hover {
-    background-color: #c5000f;
+    background-color: #F067A6;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(230, 0, 18, 0.3);
+    box-shadow: 0 4px 12px rgba(240, 103, 166, 0.3);
 }
 
 .estimate-cta-button-secondary {
@@ -1799,10 +1799,10 @@ header {
 }
 
 .estimate-cta-button-secondary:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(230, 0, 18, 0.3);
+    box-shadow: 0 4px 12px rgba(240, 103, 166, 0.3);
 }
 
 .estimate-cta-icon {
@@ -1848,7 +1848,7 @@ header {
 }
 
 .estimate-cta-button-secondary:hover .estimate-cta-icon .estimate-cta-arrow {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 /* =========================================
@@ -2041,7 +2041,7 @@ header {
 }
 
 .menu-cta-button-primary:hover {
-    background-color: #c5000f;
+    background-color: #F067A6;
 }
 
 .menu-cta-button-secondary {
@@ -2051,7 +2051,7 @@ header {
 }
 
 .menu-cta-button-secondary:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
 }
 
@@ -2623,7 +2623,7 @@ header {
 }
 
 .strengths-button:hover {
-    background-color: #c5000f;
+    background-color: #F067A6;
 }
 
 .strengths-arrow {
@@ -3002,7 +3002,7 @@ header {
 }
 
 .faq-new-link:hover {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 .faq-new-more {
@@ -3080,7 +3080,7 @@ header {
 }
 
 .franchise-top-link a:hover {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 .franchise-consult-banner {
@@ -3097,7 +3097,7 @@ header {
 }
 
 .franchise-consult-illust {
-    background: url('https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=400&h=400&fit=crop') center/cover no-repeat;
+    background: url('./img-source/top2.jpg') center/cover no-repeat;
     min-height: 220px;
 }
 
@@ -3186,7 +3186,7 @@ header {
 }
 
 .housecleaning-link a:hover {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 /* =========================================
@@ -3272,7 +3272,7 @@ header {
 }
 
 .house-articles-more-link:hover {
-    color: var(--primary-color);
+    color: #F067A6;
 }
 
 /* =========================================
@@ -3439,7 +3439,7 @@ header {
 }
 
 .shop-search-button:hover {
-    background-color: #c5000f;
+    background-color: #F067A6;
 }
 
 .shop-region-list {
@@ -3473,9 +3473,9 @@ header {
 }
 
 .region-link:hover {
-    background-color: var(--primary-color);
+    background-color: #F067A6;
     color: white;
-    border-color: var(--primary-color);
+    border-color: #F067A6;
 }
 
 /* =========================================
