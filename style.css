@@ -36,9 +36,10 @@ ul {
    共通カラー設定
    ========================================= */
 :root {
-    --primary-color: #E60012;   /* 赤系（ブランドカラー） */
-    --accent-color: #FF9900;    /* オレンジ（CTAボタン） */
-    --secondary-color: #0066CC; /* 青（清潔感・信頼） */
+    /* おそうじ本舗カラーに合わせた配色 */
+    --primary-color: #0066CC;   /* ブランドの青を基調色に */
+    --accent-color: #FF66A3;    /* 補助色のピンク */
+    --secondary-color: #004C99; /* 濃いめの青（強調用） */
     --bg-light: #ffffff;
     --text-dark: #333333;
     --text-gray: #666666;
@@ -110,6 +111,7 @@ header {
 
 .header-links a {
     color: var(--text-gray);
+    color: #ffffff;
 }
 
 .header-tel a {
@@ -274,17 +276,18 @@ header {
     margin-bottom: 10px;
     font-size: 0.85rem;
     justify-content: center;
+    color: #ffffff;
 }
 
 .header-contact-box .header-links a {
-    color: #666;
+    color: #ffffff;
     display: flex;
     align-items: center;
 }
 
 .header-contact-box .header-links a::before {
     content: "▶";
-    color: #666;
+    color: #ffffff;
     font-size: 0.7rem;
     margin-right: 4px;
 }
@@ -1643,7 +1646,14 @@ header {
     font-size: 1.1rem;
     font-weight: bold;
     color: var(--text-dark);
-    margin: 20px 0 10px 0;
+    margin: 20px 0 4px 0;
+}
+
+.estimate-ranking-price {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
 }
 
 .estimate-ranking-link {
@@ -2819,10 +2829,6 @@ header {
 }
 
 @media (max-width: 769px) {
-    .strengths-quick-grid {
-        gap: clamp(20px, 4vw, 35px);
-    }
-
     .strengths-quick-icon {
         width: clamp(86px, 18vw, 120px);
         height: clamp(86px, 18vw, 120px);
@@ -2838,7 +2844,7 @@ header {
         font-size: clamp(10px, 2.2vw, 12px);
         line-height: 1.5;
         width: 100%;
-        max-width: 100%;
+        max-width: 65%;
         margin: 0 auto;
         padding: 0 2px;
         word-break: keep-all;
@@ -3976,6 +3982,7 @@ footer {
 
     .header-contact-box .header-links {
         display: none;
+        color: #ffffff;
     }
 
     .header-contact-box .header-tel {
